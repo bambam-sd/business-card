@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 5px 5px;
+}
+
+.card {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-flow: row-reverse nowrap;
+    text-align: center;
+    background: #2a6f97;
+    color: #000814;
+    border-bottom: 10px solid #FFC300;
+    border-left: 10px solid #FFC300;
+    border-radius: 10px;
+}
+
+h3:hover {
+    background-color: #FFC300;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
